@@ -2,7 +2,7 @@
 
 Clone this repo.
 ```bash
-git clone https://github.com/NVlabs/SPADE.git
+git clone https://github.com/Anuragvij55/SPADE.git
 cd SPADE/
 ```
 
