@@ -100,17 +100,3 @@ This code repo contains many options. Some options belong to only one specific m
 ## VAE-Style Training with an Encoder For Style Control and Multi-Modal Outputs
 
 To train our model along with an image encoder to enable multi-modal outputs as in Figure 15 of the [paper](https://arxiv.org/pdf/1903.07291.pdf), please use `--use_vae`. The model will create `netE` in addition to `netG` and `netD` and train with KL-Divergence loss.
-
-### Citation
-If you use this code for your research, please cite our papers.
-```
-@inproceedings{park2019SPADE,
-  title={Semantic Image Synthesis with Spatially-Adaptive Normalization},
-  author={Park, Taesung and Liu, Ming-Yu and Wang, Ting-Chun and Zhu, Jun-Yan},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  year={2019}
-}
-```
-
-## Acknowledgments
-This code borrows heavily from pix2pixHD. We thank Jiayuan Mao for his Synchronized Batch Normalization code.
