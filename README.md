@@ -19,8 +19,6 @@ cp -rf Synchronized-BatchNorm-PyTorch/sync_batchnorm .
 cd ../../
 ```
 
-To reproduce the results reported in the paper, you would need an NVIDIA DGX1 machine with 8 V100 GPUs.
-
 ## Dataset Preparation
 
 For COCO-Stuff, Cityscapes or ADE20K, the datasets must be downloaded beforehand. Please download them on the respective webpages. In the case of COCO-stuff, we put a few sample images in this code repo.
